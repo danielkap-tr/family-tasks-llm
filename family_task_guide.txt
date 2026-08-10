@@ -1,0 +1,117 @@
+Family Task Management Guide
+
+This document describes how the Kaplan family shared task system works. It
+covers who can create tasks, what information a task must include, how
+reminders are scheduled, and how tasks move from open to done.
+
+1. Who can create a task
+
+Any registered family member may create a shared task. There is no separate
+"admin" role — every family member has equal permission to add, edit, or
+close a task. This matches the household's general trust model: tasks are a
+shared responsibility, not something only parents assign to children.
+
+A task may also be created on behalf of another family member. For example,
+a parent can create a task and immediately assign it to a child, or one
+sibling can create a task and assign it to another. The person who creates
+the task is recorded as the creator, separately from the person marked as
+responsible for completing it.
+
+2. Required fields on every task
+
+Every task in the system must have the following four pieces of
+information before it can be saved:
+
+- Title: a short one-line summary of the task, for example "Take out the
+  recycling" or "Buy a birthday present for Grandma."
+- Description: a longer free-text explanation of what needs to be done, any
+  relevant details, and where to find supplies if needed. The description
+  can be left empty for very simple tasks, but the title is always
+  required.
+- Due date: the date by which the task should be completed. Tasks without a
+  specific deadline should still get a due date — if there is truly no
+  deadline, the creator should pick a reasonable target date rather than
+  leave the field blank, since the reminder system depends on it.
+  Recurring tasks are not supported yet; a weekly task like "take out the
+  trash" must currently be re-created each week.
+- Responsible person: exactly one family member who owns the task. Tasks
+  cannot be assigned to more than one person at a time. If a task genuinely
+  requires two people, it should be split into two separate tasks, one per
+  person.
+
+3. Reminder timing
+
+Every task has a reminder setting, chosen by whoever creates the task. The
+system supports the following reminder options:
+
+- Same day: a reminder is sent on the morning of the due date itself.
+- One day before: a reminder is sent the evening before the due date. This
+  is the default option if the creator does not choose one explicitly.
+- Three days before: recommended for tasks that require some preparation
+  or shopping, such as buying a gift or booking an appointment.
+- One week before: recommended for larger tasks, such as planning a family
+  trip or scheduling a doctor's visit.
+
+Reminders are sent as a single notification at the chosen time; the system
+does not currently send repeated or escalating reminders if a task is
+ignored. If a task passes its due date without being marked done, it is
+shown as "overdue" in the task list, but no additional reminder is sent
+automatically.
+
+4. Marking a task done
+
+When a task is created, the creator chooses who is responsible for it --
+either themselves, or another family member. Either the responsible
+person or the creator may mark the task as done, even when they are two
+different people. Other family members, who are neither the creator nor
+the responsible person, can view the task and its status, but cannot
+close it themselves. This is meant to prevent a task from being marked
+complete by someone who didn't actually do the work.
+
+Once a task is marked done, it moves out of the active task list and into
+a "completed" history view. Completed tasks are kept for the current
+season only; older completed tasks are periodically cleared to keep the
+list manageable.
+
+5. Editing and deleting tasks
+
+Any of the four required fields — title, description, due date, or
+responsible person — can be edited after a task is created, by either the
+creator or the responsible person. Editing the responsible person is
+effectively reassigning the task to someone else; the system keeps no
+separate history of previous assignees, only the current one.
+
+Deleting a task removes it permanently, including its reminder schedule.
+There is no "trash" or undo for deleted tasks, so deletion should be used
+carefully, and mainly for tasks that were created by mistake or are no
+longer relevant at all — a task that is simply not needed anymore because
+priorities changed should usually be marked done or edited rather than
+deleted, so there's still a record of what was decided.
+
+6. Finding tasks from email (planned feature)
+
+A planned extension to this system will scan a family member's email inbox
+for messages that look like they describe an actionable task — for
+example, a school notice asking a parent to sign and return a form by a
+certain date, or a reminder from a doctor's office about an upcoming
+appointment. The system will suggest these as draft tasks, pre-filling the
+title and due date where possible, but a human will always need to review
+and confirm a suggested task before it becomes a real one; nothing is
+added to the shared list automatically from email alone.
+
+7. Notifications and quiet hours
+
+Reminders are not sent between 9 PM and 7 AM local time, regardless of
+what reminder timing was chosen for a task. If a reminder would otherwise
+fire during those hours, it is delayed until 7 AM the same day it would
+have gone out, or the following morning if the scheduled time already
+falls after 9 PM.
+
+8. Household scope
+
+The task system is meant for household and family-coordination tasks:
+chores, errands, appointments, school-related items, and similar shared
+responsibilities. It is not intended for tracking work projects,
+schoolwork grades, or financial budgeting — those are considered out of
+scope for this tool and are expected to be handled with other,
+purpose-built tools instead.
