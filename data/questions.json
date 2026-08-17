@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Can I create a task and assign it to my daughter instead of myself?",
+    "category": "answerable",
+    "section": "1. Who can create a task"
+  },
+  {
+    "id": 2,
+    "question": "Does someone need to be an admin to add a task to the shared list?",
+    "category": "answerable",
+    "section": "1. Who can create a task"
+  },
+  {
+    "id": 3,
+    "question": "If I create a task for my brother, does it show that I made it or that he did?",
+    "category": "answerable",
+    "section": "1. Who can create a task"
+  },
+  {
+    "id": 4,
+    "question": "Do I have to write a description for a simple task like taking out the trash?",
+    "category": "answerable",
+    "section": "2. Required fields"
+  },
+  {
+    "id": 5,
+    "question": "Can I leave the due date blank if the task doesn't really have a deadline?",
+    "category": "answerable",
+    "section": "2. Required fields"
+  },
+  {
+    "id": 6,
+    "question": "Can I assign the same task to both me and my sister since we're doing it together?",
+    "category": "answerable",
+    "section": "2. Required fields"
+  },
+  {
+    "id": 7,
+    "question": "Can I set up 'take out the trash' once and have it repeat every week?",
+    "category": "answerable",
+    "section": "2. Required fields"
+  },
+  {
+    "id": 8,
+    "question": "What's the default reminder timing if I don't pick one myself?",
+    "category": "answerable",
+    "section": "3. Reminder timing"
+  },
+  {
+    "id": 9,
+    "question": "Which reminder option should I use for planning a family trip?",
+    "category": "answerable",
+    "section": "3. Reminder timing"
+  },
+  {
+    "id": 10,
+    "question": "If I ignore a reminder, will it remind me again later?",
+    "category": "answerable",
+    "section": "3. Reminder timing"
+  },
+  {
+    "id": 11,
+    "question": "My kid's task is overdue and not marked done. Does the app do anything extra about that?",
+    "category": "answerable",
+    "section": "3. Reminder timing"
+  },
+  {
+    "id": 12,
+    "question": "I created a task and assigned it to my son. Can I mark it done myself once he finishes it?",
+    "category": "answerable",
+    "section": "4. Marking a task done"
+  },
+  {
+    "id": 13,
+    "question": "Can my other sibling, who isn't the creator or the responsible person, close out a task they see on the list?",
+    "category": "answerable",
+    "section": "4. Marking a task done"
+  },
+  {
+    "id": 14,
+    "question": "What happens to a task once it's marked done — does it disappear from my list?",
+    "category": "answerable",
+    "section": "4. Marking a task done"
+  },
+  {
+    "id": 15,
+    "question": "Do completed tasks stay in the system forever?",
+    "category": "answerable",
+    "section": "4. Marking a task done"
+  },
+  {
+    "id": 16,
+    "question": "Can I change who's responsible for a task after I've already created it?",
+    "category": "answerable",
+    "section": "5. Editing and deleting"
+  },
+  {
+    "id": 17,
+    "question": "If I reassign a task to someone else, can I still see who had it before?",
+    "category": "answerable",
+    "section": "5. Editing and deleting"
+  },
+  {
+    "id": 18,
+    "question": "I created a task by mistake — should I delete it or mark it done?",
+    "category": "answerable",
+    "section": "5. Editing and deleting"
+  },
+  {
+    "id": 19,
+    "question": "Can I undo a task deletion if I change my mind?",
+    "category": "answerable",
+    "section": "5. Editing and deleting"
+  },
+  {
+    "id": 20,
+    "question": "Will the app automatically add a task if it reads a school email about a form I need to sign?",
+    "category": "answerable",
+    "section": "6. Email feature (planned)"
+  },
+  {
+    "id": 21,
+    "question": "I set a same-day reminder for a task due tomorrow at 11pm tonight — will it actually notify me right now?",
+    "category": "answerable",
+    "section": "7. Quiet hours"
+  },
+  {
+    "id": 22,
+    "question": "Can I use this app to track my daughter's math grades this semester?",
+    "category": "out_of_scope",
+    "section": "8. Household scope (explicitly excluded)"
+  },
+  {
+    "id": 23,
+    "question": "Can I use this to track our monthly grocery budget as a family?",
+    "category": "out_of_scope",
+    "section": "8. Household scope (explicitly excluded)"
+  },
+  {
+    "id": 24,
+    "question": "What's the weather supposed to be like this weekend?",
+    "category": "out_of_scope",
+    "section": "not in document at all"
+  }
+]
